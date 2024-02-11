@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="isautheticated" label="IsAutheticated" language="en" table="x_1305995_first_ap_authentication_ho5">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>isautheticated</element>
+            <help/>
+            <hint/>
+            <label>IsAutheticated</label>
+            <language>en</language>
+            <name>x_1305995_first_ap_authentication_ho5</name>
+            <plural>IsAutheticated</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-09 10:51:46</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>IsAutheticated</sys_name>
+            <sys_package display_value="First_app" source="x_1305995_first_ap">af3cc203977b311043513f2ad053af16</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="First_app">af3cc203977b311043513f2ad053af16</sys_scope>
+            <sys_update_name>sys_documentation_x_1305995_first_ap_authentication_ho5_isautheticated_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-09 10:51:46</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

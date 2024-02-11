@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b0ebbe749754021043513f2ad053afc4" extends="sys_import_set_row" label="stagingTable" max_length="40" name="x_1305995_first_ap_stagingtable" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=completed" label="completed" max_length="40" name="u_completed" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=id" label="id" max_length="40" name="u_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=title" label="title" max_length="63" name="u_title" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=userId" label="userId" max_length="40" name="u_userid" type="string"/>
+    </element>
+</database>

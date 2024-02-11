@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6c32acd09794021043513f2ad053afff" label="authentication_ho5" max_length="40" name="x_1305995_first_ap_authentication_ho5" type="collection">
+        <element label="IsAutheticated" max_length="40" name="isautheticated" type="boolean"/>
+        <element label="Password" max_length="255" name="password" type="password2"/>
+        <element label="User Name" max_length="100" name="user_name" type="string"/>
+    </element>
+</database>

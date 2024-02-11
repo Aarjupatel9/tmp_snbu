@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="98d37e979737311043513f2ad053afb2" sys_domain="global" table="x_1305995_first_ap_userdetails" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-23 09:37:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>90d37e979737311043513f2ad053afdb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1305995_first_ap_userdetails" name="x_1305995_first_ap_userdetails" sys_domain="global" view="5cd37e979737311043513f2ad053afac">98d37e979737311043513f2ad053afb2</sys_ui_form>
+            <sys_ui_section display_value="">90d37e979737311043513f2ad053afb1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-23 09:37:52</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-23 09:37:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9cd37e979737311043513f2ad053afdb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1305995_first_ap_userdetails" name="x_1305995_first_ap_userdetails" sys_domain="global" view="5cd37e979737311043513f2ad053afac">98d37e979737311043513f2ad053afb2</sys_ui_form>
+            <sys_ui_section display_value="">d8d37e979737311043513f2ad053afb1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-23 09:37:53</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1305995_first_ap_userdetails</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-23 09:37:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>98d37e979737311043513f2ad053afb2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1305995_first_ap_userdetails</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="First_app" source="x_1305995_first_ap">af3cc203977b311043513f2ad053af16</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="First_app">af3cc203977b311043513f2ad053af16</sys_scope>
+            <sys_update_name>sys_ui_form_sections_98d37e979737311043513f2ad053afb2</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-23 09:37:52</sys_updated_on>
+            <sys_user/>
+            <view display_value="View1" name="View1">5cd37e979737311043513f2ad053afac</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

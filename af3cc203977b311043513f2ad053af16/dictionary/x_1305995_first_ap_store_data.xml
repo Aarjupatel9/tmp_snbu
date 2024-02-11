@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c8f2ac149794021043513f2ad053afd0" label="Store Data" max_length="40" name="x_1305995_first_ap_store_data" type="collection">
+        <element label="Password" max_length="255" name="password" type="password2"/>
+        <element label="User Name" max_length="100" name="user_name" type="string"/>
+    </element>
+</database>

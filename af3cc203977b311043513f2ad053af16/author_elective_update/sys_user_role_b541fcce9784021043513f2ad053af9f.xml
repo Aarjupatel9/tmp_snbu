@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>New Role</description>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_1305995_first_ap.NewAcl</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>NewAcl</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 13:12:54</sys_created_on>
+        <sys_id>b541fcce9784021043513f2ad053af9f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_1305995_first_ap.NewAcl</sys_name>
+        <sys_package display_value="First_app" source="x_1305995_first_ap">af3cc203977b311043513f2ad053af16</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First_app">af3cc203977b311043513f2ad053af16</sys_scope>
+        <sys_update_name>sys_user_role_b541fcce9784021043513f2ad053af9f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 13:20:09</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="First_app">af3cc203977b311043513f2ad053af16</application>
+        <file_path/>
+        <instance_id>25ef78211bfa35541024eb9b2d4bcb2d</instance_id>
+        <instance_name>dev227626</instance_name>
+        <name>sys_user_role_b541fcce9784021043513f2ad053af9f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description>New Role</description><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_1305995_first_ap.NewAcl</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>NewAcl</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-31 13:12:54</sys_created_on><sys_id>b541fcce9784021043513f2ad053af9f</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_1305995_first_ap.NewAcl</sys_name><sys_package display_value="First_app" source="x_1305995_first_ap">af3cc203977b311043513f2ad053af16</sys_package><sys_policy/><sys_scope display_value="First_app">af3cc203977b311043513f2ad053af16</sys_scope><sys_update_name>sys_user_role_b541fcce9784021043513f2ad053af9f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-31 13:20:09</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>662033527</payload_hash>
+        <record_name>x_1305995_first_ap.NewAcl</record_name>
+        <reverted_from/>
+        <source>12eb2e5f97f3311043513f2ad053afdb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 13:20:09</sys_created_on>
+        <sys_id>2a637c4297c4021043513f2ad053af4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d5fad4ed70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 13:20:09</sys_updated_on>
+        <type>Role</type>
+        <update_guid>ee637c42abc4021016d6e7e0bff5574c</update_guid>
+        <update_guid_history>ee637c42abc4021016d6e7e0bff5574c:662033527,9d4334420ac40210637df6e4c3b39d6b:1581073789,88c1b4027cc40210c9e4b9350a7c8fae:1608865320</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1305995_first_ap.NewAcl">50bb799297c4021043513f2ad053afe4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-01 13:14:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>39143fc8d9b24ecc942de091360dcea4</sys_id>
+        <sys_metadata>b541fcce9784021043513f2ad053af9f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1305995_first_ap.NewAcl</sys_name>
+        <sys_package display_value="First_app" source="x_1305995_first_ap">af3cc203977b311043513f2ad053af16</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="First_app">af3cc203977b311043513f2ad053af16</sys_scope>
+        <sys_scope_delete display_value="">a9cddaeebfd54440a76144ffc9b63da9</sys_scope_delete>
+        <sys_update_name>sys_user_role_b541fcce9784021043513f2ad053af9f</sys_update_name>
+        <sys_update_version display_value="sys_user_role_b541fcce9784021043513f2ad053af9f">2a637c4297c4021043513f2ad053af4d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-01 13:14:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

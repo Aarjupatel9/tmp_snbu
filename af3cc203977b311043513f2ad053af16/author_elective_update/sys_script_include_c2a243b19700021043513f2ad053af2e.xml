@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1305995_first_ap.Printing_Data_In_Logs</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Prints data in logs</description>
+        <name>Printing_Data_In_Logs</name>
+        <script><![CDATA[var Printing_Data_In_Logs = Class.create();
+Printing_Data_In_Logs.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    printData: function() {
+        var table = this.getParameter("sysparm_table");
+        var fn = this.getParameter('sysparm_fn');
+        var ln = this.getParameter('sysparm_ln');
+        var age = Number(this.getParameter('sysparm_age'));
+        var Gr = new GlideRecord(table);
+        Gr.initialize();
+        Gr.setValue('firstname', fn);
+        Gr.setValue('lastname', ln);
+        Gr.setValue('age', age);
+        if (Gr.insert()) {
+				var ar = new GlideRecord(table);
+            ar.query();
+            gs.info("Hello Aryan Outside q");
+            while (ar.next()) {
+                gs.info("Data is=> First Name: " + ar.firstname + " Last Name: " + ar.lastname + " Age: " + ar.age + " ");
+            }
+            return JSON.stringify({
+                ms: 'Data Printed in logs!!'
+            });
+        } else {
+            gs.error("Failed to Add record in Database!!");
+            return JSON.stringify({
+                ms: 'Failed to Add record in Database!!'
+            });
+        }
+
+    },
+
+    type: 'Printing_Data_In_Logs'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 05:27:38</sys_created_on>
+        <sys_id>c2a243b19700021043513f2ad053af2e</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Printing_Data_In_Logs</sys_name>
+        <sys_package display_value="First_app" source="x_1305995_first_ap">af3cc203977b311043513f2ad053af16</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="First_app">af3cc203977b311043513f2ad053af16</sys_scope>
+        <sys_update_name>sys_script_include_c2a243b19700021043513f2ad053af2e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-01 07:14:02</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="First_app">af3cc203977b311043513f2ad053af16</application>
+        <file_path/>
+        <instance_id>25ef78211bfa35541024eb9b2d4bcb2d</instance_id>
+        <instance_name>dev227626</instance_name>
+        <name>sys_script_include_c2a243b19700021043513f2ad053af2e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1305995_first_ap.Printing_Data_In_Logs&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description&gt;Prints data in logs&lt;/description&gt;&lt;name&gt;Printing_Data_In_Logs&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var Printing_Data_In_Logs = Class.create();
+Printing_Data_In_Logs.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    printData: function() {
+        var table = this.getParameter("sysparm_table");
+        var fn = this.getParameter('sysparm_fn');
+        var ln = this.getParameter('sysparm_ln');
+        var age = Number(this.getParameter('sysparm_age'));
+        var Gr = new GlideRecord(table);
+        Gr.initialize();
+        Gr.setValue('firstname', fn);
+        Gr.setValue('lastname', ln);
+        Gr.setValue('age', age);
+        if (Gr.insert()) {
+				var ar = new GlideRecord(table);
+            ar.query();
+            gs.info("Hello Aryan Outside q");
+            while (ar.next()) {
+                gs.info("Data is=&gt; First Name: " + ar.firstname + " Last Name: " + ar.lastname + " Age: " + ar.age + " ");
+            }
+            return JSON.stringify({
+                ms: 'Data Printed in logs!!'
+            });
+        } else {
+            gs.error("Failed to Add record in Database!!");
+            return JSON.stringify({
+                ms: 'Failed to Add record in Database!!'
+            });
+        }
+
+    },
+
+    type: 'Printing_Data_In_Logs'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-31 05:27:38&lt;/sys_created_on&gt;&lt;sys_id&gt;c2a243b19700021043513f2ad053af2e&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;Printing_Data_In_Logs&lt;/sys_name&gt;&lt;sys_package display_value="First_app" source="x_1305995_first_ap"&gt;af3cc203977b311043513f2ad053af16&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="First_app"&gt;af3cc203977b311043513f2ad053af16&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_c2a243b19700021043513f2ad053af2e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-01 07:14:02&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-949249454</payload_hash>
+        <record_name>Printing_Data_In_Logs</record_name>
+        <reverted_from/>
+        <source>12eb2e5f97f3311043513f2ad053afdb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-01 07:14:02</sys_created_on>
+        <sys_id>8539a45e9740021043513f2ad053af14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d638477540000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-01 07:14:02</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>0d39a45e5840021013f1c7ab81db9c13</update_guid>
+        <update_guid_history>0d39a45e5840021013f1c7ab81db9c13:-949249454,7d871c5e180002104474873fa428334b:46715777,db06d01ea000021007adc0f2cd609fd3:-327887062,4aa5185e830002100af4ddb285e32127:1666970499,e654d01ee5000210256f51e8535027cd:1878724383,849064ce9f440210644752170bff0384:0,f4939842464402101ea57d001a4da6a7:1087769906,b51d8b3dbe0002108ab75e26e7b0b873:-1530381018,1a3c077951000210498dea40255a438c:-485165062,0b884ff5020002107ff0f1121bc657a7:2134770502,41478bb53500021026f19ed48e0e2312:2118595226</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-07 11:51:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>6121bec0bbed42ab89318bceac75d741</sys_id>
+        <sys_metadata>c2a243b19700021043513f2ad053af2e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Printing_Data_In_Logs</sys_name>
+        <sys_package display_value="First_app" source="x_1305995_first_ap">af3cc203977b311043513f2ad053af16</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="First_app">af3cc203977b311043513f2ad053af16</sys_scope>
+        <sys_scope_delete display_value="">a9cddaeebfd54440a76144ffc9b63da9</sys_scope_delete>
+        <sys_update_name>sys_script_include_c2a243b19700021043513f2ad053af2e</sys_update_name>
+        <sys_update_version display_value="sys_script_include_c2a243b19700021043513f2ad053af2e">8539a45e9740021043513f2ad053af14</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-07 11:51:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

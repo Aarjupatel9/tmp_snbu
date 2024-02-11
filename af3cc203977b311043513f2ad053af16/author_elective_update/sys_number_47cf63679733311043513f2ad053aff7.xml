@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_1305995_first_ap_userdetails">x_1305995_first_ap_userdetails</category>
+        <maximum_digits>7</maximum_digits>
+        <number>100</number>
+        <prefix/>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 08:39:08</sys_created_on>
+        <sys_id>47cf63679733311043513f2ad053aff7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="First_app" source="x_1305995_first_ap">af3cc203977b311043513f2ad053af16</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First_app">af3cc203977b311043513f2ad053af16</sys_scope>
+        <sys_update_name>sys_number_47cf63679733311043513f2ad053aff7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 08:39:08</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="First_app">af3cc203977b311043513f2ad053af16</application>
+        <file_path/>
+        <instance_id>25ef78211bfa35541024eb9b2d4bcb2d</instance_id>
+        <instance_name>dev227626</instance_name>
+        <name>sys_number_47cf63679733311043513f2ad053aff7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_1305995_first_ap_userdetails">x_1305995_first_ap_userdetails</category><maximum_digits>7</maximum_digits><number>100</number><prefix/><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-24 08:39:08</sys_created_on><sys_id>47cf63679733311043513f2ad053aff7</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="First_app" source="x_1305995_first_ap">af3cc203977b311043513f2ad053af16</sys_package><sys_policy/><sys_scope display_value="First_app">af3cc203977b311043513f2ad053af16</sys_scope><sys_update_name>sys_number_47cf63679733311043513f2ad053aff7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-24 08:39:08</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>-2119418053</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>12eb2e5f97f3311043513f2ad053afdb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 08:39:09</sys_created_on>
+        <sys_id>bdff67679733311043513f2ad053af08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d3a9f866b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 08:39:09</sys_updated_on>
+        <type>Number</type>
+        <update_guid>f1ff67677f3331106f795fff91f5fd08</update_guid>
+        <update_guid_history>f1ff67677f3331106f795fff91f5fd08:-2119418053</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 12:43:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>25f70051b1d540888b1ed5f550395904</sys_id>
+        <sys_metadata>47cf63679733311043513f2ad053aff7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="First_app" source="x_1305995_first_ap">af3cc203977b311043513f2ad053af16</sys_package>
+        <sys_parent display_value="">b9fb6a9f97f3311043513f2ad053af5d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="First_app">af3cc203977b311043513f2ad053af16</sys_scope>
+        <sys_scope_delete display_value="">a9cddaeebfd54440a76144ffc9b63da9</sys_scope_delete>
+        <sys_update_name>sys_number_47cf63679733311043513f2ad053aff7</sys_update_name>
+        <sys_update_version display_value="sys_number_47cf63679733311043513f2ad053aff7">bdff67679733311043513f2ad053af08</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 12:43:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

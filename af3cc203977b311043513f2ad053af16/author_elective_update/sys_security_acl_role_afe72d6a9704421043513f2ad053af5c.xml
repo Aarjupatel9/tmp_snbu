@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-02 06:30:00</sys_created_on>
+        <sys_id>afe72d6a9704421043513f2ad053af5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_1305995_first_ap.persondetails_user</sys_name>
+        <sys_package display_value="First_app" source="x_1305995_first_ap">af3cc203977b311043513f2ad053af16</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First_app">af3cc203977b311043513f2ad053af16</sys_scope>
+        <sys_security_acl display_value="">55e7ad6e9704421043513f2ad053af7e</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_afe72d6a9704421043513f2ad053af5c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-02 06:30:00</sys_updated_on>
+        <sys_user_role display_value="x_1305995_first_ap.persondetails_user" name="x_1305995_first_ap.persondetails_user">11ec1b299784021043513f2ad053af35</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="First_app">af3cc203977b311043513f2ad053af16</application>
+        <file_path/>
+        <instance_id>25ef78211bfa35541024eb9b2d4bcb2d</instance_id>
+        <instance_name>dev227626</instance_name>
+        <name>sys_security_acl_role_afe72d6a9704421043513f2ad053af5c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-02 06:30:00</sys_created_on><sys_id>afe72d6a9704421043513f2ad053af5c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_1305995_first_ap.persondetails_user</sys_name><sys_package display_value="First_app" source="x_1305995_first_ap">af3cc203977b311043513f2ad053af16</sys_package><sys_policy/><sys_scope display_value="First_app">af3cc203977b311043513f2ad053af16</sys_scope><sys_security_acl display_value="">55e7ad6e9704421043513f2ad053af7e</sys_security_acl><sys_update_name>sys_security_acl_role_afe72d6a9704421043513f2ad053af5c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-02 06:30:00</sys_updated_on><sys_user_role display_value="x_1305995_first_ap.persondetails_user" name="x_1305995_first_ap.persondetails_user">11ec1b299784021043513f2ad053af35</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>873021813</payload_hash>
+        <record_name>.x_1305995_first_ap.persondetails_user</record_name>
+        <reverted_from/>
+        <source>12eb2e5f97f3311043513f2ad053afdb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-02 06:30:00</sys_created_on>
+        <sys_id>35b82d6e9704421043513f2ad053aff8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d688282b50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-02 06:30:00</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>79b82d6e0a044210ffdd6e50e0cd21f7</update_guid>
+        <update_guid_history>79b82d6e0a044210ffdd6e50e0cd21f7:873021813</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".x_1305995_first_ap.persondetails_user">700c65a29744421043513f2ad053aff5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-02 06:44:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>d8efa06ce04c48ef95fd65acdfba0811</sys_id>
+        <sys_metadata>afe72d6a9704421043513f2ad053af5c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_1305995_first_ap.persondetails_user</sys_name>
+        <sys_package display_value="First_app" source="x_1305995_first_ap">af3cc203977b311043513f2ad053af16</sys_package>
+        <sys_parent display_value="">55e7ad6e9704421043513f2ad053af7e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="First_app">af3cc203977b311043513f2ad053af16</sys_scope>
+        <sys_scope_delete display_value="">a9cddaeebfd54440a76144ffc9b63da9</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_afe72d6a9704421043513f2ad053af5c</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_afe72d6a9704421043513f2ad053af5c">35b82d6e9704421043513f2ad053aff8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-02 06:44:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

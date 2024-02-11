@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name>LogData</action_name>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>false</form_action>
+        <form_button>false</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>true</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>true</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>LIST DATA</name>
+        <onclick>logData()</onclick>
+        <order>100</order>
+        <script><![CDATA[gs.info('Hey Manav Here');
+
+gs.info(current.username + "Current data!!");]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-05 06:35:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4a26012b97c4821043513f2ad053af78</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>LIST DATA</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="First_app" source="x_1305995_first_ap">af3cc203977b311043513f2ad053af16</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First_app">af3cc203977b311043513f2ad053af16</sys_scope>
+        <sys_update_name>sys_ui_action_4a26012b97c4821043513f2ad053af78</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-05 07:13:49</sys_updated_on>
+        <table>x_1305995_first_ap_cconfiguration</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="First_app">af3cc203977b311043513f2ad053af16</application>
+        <file_path/>
+        <instance_id>25ef78211bfa35541024eb9b2d4bcb2d</instance_id>
+        <instance_name>dev227626</instance_name>
+        <name>sys_ui_action_4a26012b97c4821043513f2ad053af78</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;LogData&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition/&gt;&lt;form_action&gt;false&lt;/form_action&gt;&lt;form_button&gt;false&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;format_for_configurable_workspace&gt;false&lt;/format_for_configurable_workspace&gt;&lt;hint/&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;list_action&gt;true&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;true&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;LIST DATA&lt;/name&gt;&lt;onclick&gt;logData()&lt;/onclick&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[gs.info('Hey Manav Here');
+
+gs.info(current.username + "Current data!!");]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-05 06:35:04&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;4a26012b97c4821043513f2ad053af78&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name&gt;LIST DATA&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="First_app" source="x_1305995_first_ap"&gt;af3cc203977b311043513f2ad053af16&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="First_app"&gt;af3cc203977b311043513f2ad053af16&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_4a26012b97c4821043513f2ad053af78&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-05 07:13:49&lt;/sys_updated_on&gt;&lt;table&gt;x_1305995_first_ap_cconfiguration&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-845662037</payload_hash>
+        <record_name>LIST DATA</record_name>
+        <reverted_from/>
+        <source>12eb2e5f97f3311043513f2ad053afdb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-05 07:13:49</sys_created_on>
+        <sys_id>708f85a39708821043513f2ad053af74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d781db53b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-05 07:13:49</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>388f85a39d0882109026f07006e57173</update_guid>
+        <update_guid_history>388f85a39d0882109026f07006e57173:-845662037,553fc9a32f0882109df316b8e8625d19:1919569793,8a3e85230c0882108676636c9c4c9330:1154659852,192ec9afbbc482106ae188f92c9637fa:24157116,e91e89af2ac482105f5103cea0fc54a8:-840476369,a1ed012322088210282d25a8f90be87f:1154659852,30bd89af6cc48210f3206d79dc7bc26b:1901002518,468c89afe5c48210a15b977f8f575b64:589654622,917c01af6cc4821085b8cf84ba7c0c7f:-1349186104,ed3c096f9ec48210a415c40aea6af49c:-813267086,1f5b816f6bc4821009b203c80d520f8f:-1268221240,64f6c52b94c48210574330a1e14071d7:1332416464,2ce68de791c48210e758e93daaacc367:185467470,9da6492b00c4821003cd86e011a36b67:510371622</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-05 07:15:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>1cc5b399359a47e693252b29061f2481</sys_id>
+        <sys_metadata>4a26012b97c4821043513f2ad053af78</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LIST DATA</sys_name>
+        <sys_package display_value="First_app" source="x_1305995_first_ap">af3cc203977b311043513f2ad053af16</sys_package>
+        <sys_parent display_value="Cconfiguration">3312fc8b9708021043513f2ad053af48</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="First_app">af3cc203977b311043513f2ad053af16</sys_scope>
+        <sys_scope_delete display_value="">a9cddaeebfd54440a76144ffc9b63da9</sys_scope_delete>
+        <sys_update_name>sys_ui_action_4a26012b97c4821043513f2ad053af78</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_4a26012b97c4821043513f2ad053af78">708f85a39708821043513f2ad053af74</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-05 07:15:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

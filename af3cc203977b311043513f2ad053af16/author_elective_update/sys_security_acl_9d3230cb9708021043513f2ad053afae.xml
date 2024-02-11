@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_1305995_first_ap_cconfiguration</description>
+        <name>x_1305995_first_ap_cconfiguration</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-03 15:48:48</sys_created_on>
+        <sys_id>9d3230cb9708021043513f2ad053afae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1305995_first_ap_cconfiguration</sys_name>
+        <sys_package display_value="First_app" source="x_1305995_first_ap">af3cc203977b311043513f2ad053af16</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First_app">af3cc203977b311043513f2ad053af16</sys_scope>
+        <sys_update_name>sys_security_acl_9d3230cb9708021043513f2ad053afae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-03 15:48:48</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="First_app">af3cc203977b311043513f2ad053af16</application>
+        <file_path/>
+        <instance_id>25ef78211bfa35541024eb9b2d4bcb2d</instance_id>
+        <instance_name>dev227626</instance_name>
+        <name>sys_security_acl_9d3230cb9708021043513f2ad053afae</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_1305995_first_ap_cconfiguration</description>
+        <name>x_1305995_first_ap_cconfiguration</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-03 15:48:48</sys_created_on>
+        <sys_id>9d3230cb9708021043513f2ad053afae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1305995_first_ap_cconfiguration</sys_name>
+        <sys_package display_value="First_app" source="x_1305995_first_ap">af3cc203977b311043513f2ad053af16</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First_app">af3cc203977b311043513f2ad053af16</sys_scope>
+        <sys_update_name>sys_security_acl_9d3230cb9708021043513f2ad053afae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-03 15:48:48</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>]]></payload>
+        <payload_hash>1401829422</payload_hash>
+        <record_name>x_1305995_first_ap_cconfiguration</record_name>
+        <reverted_from/>
+        <source>33ed1223974c821043513f2ad053afa8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-05 12:56:36</sys_created_on>
+        <sys_id>52fdd223974c821043513f2ad053af7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d79578a290000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-05 12:56:36</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>5efdd223334c8210ffb7f1714724997d</update_guid>
+        <update_guid_history>5efdd223334c8210ffb7f1714724997d:0,5307926bc20c821082b6dfb113ce888b:251025147,9d3230cbf70802102df3def3d75e4cb0:860451772</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-07 11:49:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>55c07a4163bf4108a453f23e389a5e90</sys_id>
+        <sys_metadata>9d3230cb9708021043513f2ad053afae</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1305995_first_ap_cconfiguration</sys_name>
+        <sys_package display_value="First_app" source="x_1305995_first_ap">af3cc203977b311043513f2ad053af16</sys_package>
+        <sys_parent display_value="">55fd9223974c821043513f2ad053af38</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="First_app">af3cc203977b311043513f2ad053af16</sys_scope>
+        <sys_scope_delete display_value="">a9cddaeebfd54440a76144ffc9b63da9</sys_scope_delete>
+        <sys_update_name>sys_security_acl_9d3230cb9708021043513f2ad053afae</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_9d3230cb9708021043513f2ad053afae">52fdd223974c821043513f2ad053af7e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-07 11:49:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1305995_first_ap.updateLogg</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>updateLogg</name>
+        <script><![CDATA[var updateLogg = Class.create();
+updateLogg.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	updateLog:function(){
+		var url=this.getParameter('sysparm_url');
+		var table=this.getParameter('sysparm_table');
+		var Gr=new GlideRecord(table);
+		Gr.query();
+		while(Gr.next()){
+			Gr.setValue('url',url);
+			Gr.update();
+		}
+		return JSON.stringify('Data Updated!!!');
+		
+	},
+
+    type: 'updateLogg'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-06 12:00:35</sys_created_on>
+        <sys_id>9a98d33f978cc21043513f2ad053af32</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>updateLogg</sys_name>
+        <sys_package display_value="First_app" source="x_1305995_first_ap">af3cc203977b311043513f2ad053af16</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="First_app">af3cc203977b311043513f2ad053af16</sys_scope>
+        <sys_update_name>sys_script_include_9a98d33f978cc21043513f2ad053af32</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-06 12:08:18</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="First_app">af3cc203977b311043513f2ad053af16</application>
+        <file_path/>
+        <instance_id>25ef78211bfa35541024eb9b2d4bcb2d</instance_id>
+        <instance_name>dev227626</instance_name>
+        <name>sys_script_include_9a98d33f978cc21043513f2ad053af32</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1305995_first_ap.updateLogg&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;updateLogg&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var updateLogg = Class.create();
+updateLogg.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	updateLog:function(){
+		var url=this.getParameter('sysparm_url');
+		var table=this.getParameter('sysparm_table');
+		var Gr=new GlideRecord(table);
+		Gr.query();
+		while(Gr.next()){
+			Gr.setValue('url',url);
+			Gr.update();
+		}
+		return JSON.stringify('Data Updated!!!');
+		
+	},
+
+    type: 'updateLogg'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-06 12:00:35&lt;/sys_created_on&gt;&lt;sys_id&gt;9a98d33f978cc21043513f2ad053af32&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;updateLogg&lt;/sys_name&gt;&lt;sys_package display_value="First_app" source="x_1305995_first_ap"&gt;af3cc203977b311043513f2ad053af16&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="First_app"&gt;af3cc203977b311043513f2ad053af16&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_9a98d33f978cc21043513f2ad053af32&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-06 12:08:18&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1428756186</payload_hash>
+        <record_name>updateLogg</record_name>
+        <reverted_from/>
+        <source>12eb2e5f97f3311043513f2ad053afdb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-06 12:08:18</sys_created_on>
+        <sys_id>a08c53b39700061043513f2ad053afbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d7e51ae2d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-06 12:08:18</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>688c53b39e000610398b3aeb4c2044bb</update_guid>
+        <update_guid_history>688c53b39e000610398b3aeb4c2044bb:-1428756186,db3b97b346000610e929c3224e4dbe45:1449894705,6bba1f73f000061079ce0b81cad73f46:637735524</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-07 11:51:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>9bacd8b914df4650a6e8d1d01ae58f10</sys_id>
+        <sys_metadata>9a98d33f978cc21043513f2ad053af32</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>updateLogg</sys_name>
+        <sys_package display_value="First_app" source="x_1305995_first_ap">af3cc203977b311043513f2ad053af16</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="First_app">af3cc203977b311043513f2ad053af16</sys_scope>
+        <sys_scope_delete display_value="">a9cddaeebfd54440a76144ffc9b63da9</sys_scope_delete>
+        <sys_update_name>sys_script_include_9a98d33f978cc21043513f2ad053af32</sys_update_name>
+        <sys_update_version display_value="sys_script_include_9a98d33f978cc21043513f2ad053af32">a08c53b39700061043513f2ad053afbc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-07 11:51:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

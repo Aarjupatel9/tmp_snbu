@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5dea26349714021043513f2ad053af30" extends="sys_import_set_row" label="importSaleData" max_length="40" name="x_1305995_first_ap_importsaledata" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Item" label="Item" max_length="40" name="u_item" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Manager" label="Manager" max_length="40" name="u_manager" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=OrderDate" label="OrderDate" max_length="40" name="u_orderdate" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Region" label="Region" max_length="40" name="u_region" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SalesMan" label="SalesMan" max_length="40" name="u_salesman" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Sale_amt" label="Sale_amt" max_length="40" name="u_sale_amt" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Units" label="Units" max_length="40" name="u_units" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Unit_price" label="Unit_price" max_length="40" name="u_unit_price" type="string"/>
+    </element>
+</database>

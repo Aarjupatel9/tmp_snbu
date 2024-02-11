@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Aryan App">57eaf29f9737311043513f2ad053af5b</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>UserModule</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1305995_first_ap_userdetails</name>
+        <order>100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-23 10:10:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8b0b769f9737311043513f2ad053afc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UserModule</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="First_app" source="x_1305995_first_ap">af3cc203977b311043513f2ad053af16</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First_app">af3cc203977b311043513f2ad053af16</sys_scope>
+        <sys_update_name>sys_app_module_8b0b769f9737311043513f2ad053afc3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-23 10:10:30</sys_updated_on>
+        <timeline_page/>
+        <title>UserModule</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="First_app">af3cc203977b311043513f2ad053af16</application>
+        <file_path/>
+        <instance_id>25ef78211bfa35541024eb9b2d4bcb2d</instance_id>
+        <instance_name>dev227626</instance_name>
+        <name>sys_app_module_8b0b769f9737311043513f2ad053afc3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Aryan App">57eaf29f9737311043513f2ad053af5b</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>UserModule</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1305995_first_ap_userdetails</name>
+        <order>100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-23 10:10:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8b0b769f9737311043513f2ad053afc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UserModule</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="First_app" source="x_1305995_first_ap">af3cc203977b311043513f2ad053af16</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First_app">af3cc203977b311043513f2ad053af16</sys_scope>
+        <sys_update_name>sys_app_module_8b0b769f9737311043513f2ad053afc3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-23 10:10:30</sys_updated_on>
+        <timeline_page/>
+        <title>UserModule</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>]]></payload>
+        <payload_hash>-274034202</payload_hash>
+        <record_name>UserModule</record_name>
+        <reverted_from/>
+        <source>32995fa59784021043513f2ad053af29</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-30 12:09:30</sys_created_on>
+        <sys_id>b9a953e59784021043513f2ad053af85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d5a4644070000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-30 12:09:30</sys_updated_on>
+        <type>Module</type>
+        <update_guid>75a953e5aa840210c9cbbd9b01d94185</update_guid>
+        <update_guid_history>75a953e5aa840210c9cbbd9b01d94185:0,99d7e4fbf7f33110d860ca522727815d:-2140931658,5a4b7a9fc537311002aafb48c469ee80:1486708366</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="UserModule">924a97299784021043513f2ad053afa1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-30 12:12:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>10282b17aa95451cad0a15e36e2730c4</sys_id>
+        <sys_metadata>8b0b769f9737311043513f2ad053afc3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UserModule</sys_name>
+        <sys_package display_value="First_app" source="x_1305995_first_ap">af3cc203977b311043513f2ad053af16</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="First_app">af3cc203977b311043513f2ad053af16</sys_scope>
+        <sys_scope_delete display_value="">a9cddaeebfd54440a76144ffc9b63da9</sys_scope_delete>
+        <sys_update_name>sys_app_module_8b0b769f9737311043513f2ad053afc3</sys_update_name>
+        <sys_update_version display_value="sys_app_module_8b0b769f9737311043513f2ad053afc3">b9a953e59784021043513f2ad053af85</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-30 12:12:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
